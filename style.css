@@ -28,13 +28,11 @@ body{
     flex-wrap: wrap;
 }
 #table {
-    
     padding-right: 10px;
     width:70%;
 }
 
 .inputs{
-
     justify-content:center;
     align-items: center;
 }
