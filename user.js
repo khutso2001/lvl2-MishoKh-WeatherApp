@@ -27,8 +27,8 @@ class Student{
 }
 let misho = new Student('misho','khutsishvili',[50,80,100,50]);
 let nini =  new Student('nini','mgaloblishvili',[50,60,70,80]);
-let bakuri = new Student('beqa','jorjoliani',[90,30,67,50]);
-let zhora = new Student('lado','tatarashvili',[20,80,40,90]);
+let beqa = new Student('beqa','jorjoliani',[90,30,67,50]);
+let lado = new Student('lado','tatarashvili',[20,80,40,90]);
 
 
 let table=document.getElementById('table');
