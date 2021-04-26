@@ -1,10 +1,15 @@
+
 let subject= ['math','art','javascript','html'];
+
+
+
 let student=[
     {name:'misho',lastname:'khutsishvili',score:[90,100,70,80]},
     {name:'nini',lastname:'mgaloblishvili',score:[93,10,71,30]},
     {name:'keso',lastname:'tandashvili',score:[90,90,7,29]},
     {name:'lana',lastname:'chaduneli',score:[13,44,70,20]},
 ]
+
 let avrg=[0,0,0,0];
 function aver(){
 
@@ -32,7 +37,7 @@ let table=document.getElementById('table');
 let thead=document.getElementById('head');
 let tbody=document.getElementById('body');
 let tfoot=document.getElementById('tfoot');
-let cvld='<th>name</th>'+`<th>lastname</th>`
+let cvld='<th>name</th>'+`<th>lastname</th>`;
 for(let i=0;i<subject.length;i++){
     cvld+=`<th>${subject[i]}</th>`;
 }
@@ -91,3 +96,10 @@ document.getElementById('btn').addEventListener('click',function(){
 document.getElementById('table').deleteRow(1);
 });
 
+document.getElementById('id_subject').addEventListener('submit', addsubject);
+
+function addsubject(event){
+   event.preventDefault();
+    let subnm=document.getElementById('sub_input');
+    subject.push({subject:subnm.value})
+}
