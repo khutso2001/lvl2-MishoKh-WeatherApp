@@ -2,36 +2,61 @@ html,body{
     margin:0;
     padding:0;
 }
-#table{
-    border:1px solid black;
-    border-spacing: 0px;
-    
-}
 
-tr,td,th{
-    border:1px solid black ;
-    border-radius: 3px;
-}
-.red{
-    background-color: red;
-}
-.green{
-    background-color: green;
-}
-form input{
-display:flex;
-flex-direction: column;
-}
-body{
-    justify-content: center;
+
+#main{ 
     display:flex;
-    flex-wrap: wrap;
+  
+    align-items: center;
+    background-color: rgb(219, 84, 84);
+    text-shadow: 1px 1px;
+    font-size: 40px;
 }
-#table {
-    padding-right: 10px;
-    width:70%;
+button{
+
+    color:red;
+    letter-spacing: 4px;
+    transition: 0.2s;
+    border:none;
+ }
+ button:hover{
+    border-radius: 30px;
+    color:rgb(247, 40, 168);
+    background: rgb(206, 51, 136);
+    box-shadow: 1px 2px  3px 4px rgb(236, 72, 181),  1px 2px  3px 4px rgb(250, 70, 181),  1px 2px  3px 4px rgb(223, 123, 228),1px 2px  3px 4px rgb(236, 131, 192);
+}
+button:focus,input:focus{
+    outline:none;
+
+}
+#content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
 }
 
-.inputs{
-    justify-content:center;
-    align-items: center;
+input{
+    min-width: 300px;
+    min-height:30px ;
+   border-radius: 20px;
+   text-align: center;
+}
+button{
+    min-height:30px ;
+    min-width: 50px;
+    border-radius: 20px;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+}
+.music_content{
+    text-shadow: 1px 1px;
+    color:red;
+  
+}
+.music_content:hover{
+    box-shadow: 1px 2px  3px 4px rgb(187, 48, 206),  1px 2px  3px 4px rgb(106, 106, 233),  1px 2px  3px 4px rgb(106, 106, 233),1px 2px  3px 4px rgb(106, 106, 233);
+    border-radius: 20px;
+}
