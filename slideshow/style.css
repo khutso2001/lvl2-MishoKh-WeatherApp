@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding:0;
+   
+}
+header{
+   
+    color:rgb(240, 116, 137);
+    text-align: center;
+    font-size: 20px;
+}
+.container {
+  max-width: 90%;
+ 
+  position: relative;
+ margin:auto;
+}
+
+
+.left_a,.right_a {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+ 
+}
+.right_a {
+  right: 0;
+}
+.right_a:hover, .left_a:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.mySlides img{
+  max-height: 80vh;
+}
+.html_text,.js_text,.css_text {
+  color: #be0a0a;
+  font-size: 30px;
+  position: absolute;
+  bottom:40px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.cnt {
+  color: #cc3939;
+  font-size: 20px;
+  padding: 10px 15px;
+  position: absolute;
+}
+
+
+.kn_kn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-30px;
+}
+.kn {
+    cursor: pointer;
+    height: 5px;
+    width: 70px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 100%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  
+  .active, .kn:hover {
+    background-color: #717171;
+  }
