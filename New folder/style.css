@@ -236,3 +236,23 @@ margin-top: 30px;
 .container-fluid.lineimg,.WHOWEARWHAT{
     margin-top: 30px;
 }
+.header,.wel_call{
+display: flex;
+justify-content: space-around;
+}
+.header{
+    margin: 20px 0 0 20px;
+    
+}
+.wel_call img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+   
+}
+.col-2.imagee:hover,.col-2.coin:hover{
+    transform:scale(1.1);
+}
+.img_hover,.col-2.coin{
+    transition: 0.2s;
+}
