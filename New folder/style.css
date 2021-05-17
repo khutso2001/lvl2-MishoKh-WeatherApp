@@ -1,0 +1,238 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:flex;
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+header{
+    border-bottom: 1px solid #c90b0b;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+.ul_menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+   
+}
+.ul_li{
+    margin-left: 5rem;
+}
+.ul_link{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #475569;
+}
+.ul_link:hover{
+color:rgb(194, 168, 129);
+}
+.logo_menu{
+    font-size: 2.1rem;
+    font-weight: 500;
+    color: #482ff7;
+    
+}
+.hamburger {
+    
+    cursor: pointer;
+}
+
+
+.hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .latest_droops{
+      text-align: center;
+      
+  }
+  .cards{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .h1_year,.h1_trends,.p_offer{
+      display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 50px;
+  }
+  .workcasual{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .workcasual p{
+      margin:30px
+  }
+   .shipping_Service_affer{
+display: flex;
+justify-content: center;
+justify-content: space-evenly;
+   }
+   .car_ser_offer{
+       display:flex;
+   }
+   .car_ser_offer img{
+       width: 80px;
+       height: 80px;
+   }
+   .blog{
+      text-align: center;
+
+   }
+    .car_ser_offer1 img:hover{
+        background-color: red;
+    }
+    .WHOWEARWHAT{
+        text-align: center;
+    }
+.img_line{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.forgmail{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.col-6.image_edit img{
+    width:100%;
+    height:100%;
+}
+
+.img_line img{
+    max-width:180px;
+    padding:0;
+    margin:0;
+}
+.row.row_class{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.col-6.sign{
+    margin-top: 48px;
+}
+.col-2.imagee{
+    padding:0;
+}
+.col-2.imagee img{
+    width:100%;
+    height:100%;
+}
+
+.slide_text{
+    position:absolute;
+    top:30%;
+    left:20%;
+}
+
+.container.burger{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+
+a.navbar-brand{
+    margin-left:20px;
+}
+
+.btn-group.smth2{
+    padding-right:20px;
+}
+
+.container.sect2{
+    margin-top:30px;
+}
+.img_hover:hover{
+    transform:scale(1.1);
+}
+.img_hover{
+    transition: 0.2s;
+}
+.container.footer{
+margin-top: 30px;
+    background-color: rgb(249,249,249);
+}
+.container-fluid.lineimg,.WHOWEARWHAT{
+    margin-top: 30px;
+}
