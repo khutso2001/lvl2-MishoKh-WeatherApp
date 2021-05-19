@@ -15,3 +15,13 @@ function closeMenu() {
     hamburger.classList.remove("active");
     ul_menu.classList.remove("active");
 }
+
+
+const back=document.querySelector('.btn-danger.back');
+console.log(back);
+
+back.addEventListener('click',function(e){
+    ulmenu.classList.remove("active");
+    hamburger.classList.remove("active");
+})
+
