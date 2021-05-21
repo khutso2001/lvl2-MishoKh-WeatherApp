@@ -288,6 +288,9 @@ padding-bottom: 30px;
 .col-7,.row.header{
     padding-top: 10px;
 }
+.col-lg-7.col-md-12{
+    margin-top:10px;
+}
 .col.hov,.col.iconflex{
     opacity:0.5;
 }
