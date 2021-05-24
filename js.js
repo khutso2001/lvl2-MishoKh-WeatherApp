@@ -24,4 +24,3 @@ back.addEventListener('click',function(e){
     ulmenu.classList.remove("active");
     hamburger.classList.remove("active");
 })
-

@@ -1,0 +1,328 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.col-8.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: rgb(248,248,248);
+}
+.col-4.header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	background-color: rgb(248,248,248);
+}
+.col-2.coin {
+	margin-top: 15px;
+}
+.contact {
+	display: flex;
+}
+span {
+	color: red;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+header {
+	border-bottom: 1px solid #c90b0b;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1.5rem;
+}
+.hamburger {
+	display: none;
+	display: block;
+	cursor: pointer;
+}
+.bar {
+	display: block;
+	width: 25px;
+	height: 3px;
+	margin: 5px auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	background-color: #101010;
+}
+.ul_menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	left: -100%;
+	top: 5rem;
+	flex-direction: column;
+	background-color: #fff;
+	text-align: center;
+	transition: 0.3s;
+}
+.ul_li {
+	margin-left: 5rem;
+	margin: 2.5rem 0;
+}
+.ul_link {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: #475569;
+	&:hover {
+		color: rgb(194, 168, 129);
+	}
+}
+.logo_menu {
+	font-size: 2.1rem;
+	font-weight: 500;
+	color: #482ff7;
+}
+.ul_menu.active {
+	left: 0;
+	z-index: 9999;
+}
+@media only screen and (max-width: 1000px) {
+	.col-lg-7.col-md-12 {
+		display: none;
+	}
+}
+.hamburger.active {
+	.bar {
+		&:nth-child(2) {
+			opacity: 0;
+		}
+		&:nth-child(1) {
+			transform: translateY(8px) rotate(45deg);
+		}
+		&:nth-child(3) {
+			transform: translateY(-8px) rotate(-45deg);
+		}
+	}
+}
+.col-3.dis {
+	display: flex;
+}
+.slide_text {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+.col-6.img {
+	img {
+		width: 100%;
+		height: 100%;
+		&:hover {
+			transform: scale(1.1);
+		}
+	}
+	transition: 0.2s;
+}
+.col6img {
+	position: absolute;
+	margin-top: 90px;
+	margin-left: 300px;
+}
+.col.centr {
+	text-align: center;
+}
+.cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.instagram-box {
+	background-image: url("http://themes.pixelstrap.com/multikart/assets/images/slider/4.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	position: relative;
+	background-color: #ff4c3b;
+	overflow: hidden;
+	img {
+		width: 100%;
+		width: 100%;
+	}
+	.overlay {
+		transition: 0.5s ease;
+		opacity: 0;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		background-color: #ff4c3b;
+		top: 0;
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transform: scale(3) rotate(90deg);
+		i {
+			font-size: 60px;
+			color: #ffffff;
+		}
+	}
+	&:hover {
+		.overlay {
+			opacity: 0.5;
+			transition: 0.5s ease;
+			transform: scale(1) rotate(0deg);
+		}
+	}
+}
+.insta-style.slick-current.instagram-box.overlay {
+	opacity: 0.4;
+	transform: scale(1) rotate(0deg);
+}
+.section3 {
+	margin-bottom: 80px;
+}
+.banner.parallax {
+	background-image: url("http://themes.pixelstrap.com/multikart/assets/images/parallax/1.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: block;
+	background-attachment: fixed;
+}
+.banner {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 190px;
+	padding-bottom: 190px;
+	background-position: center;
+}
+.parallax {
+	background-attachment: fixed;
+}
+.banner-contain {
+	h2 {
+		color: #ff4c3b;
+		font-size: 85px;
+		text-transform: uppercase;
+	}
+	h3 {
+		font-size: 60px;
+		color: #333333;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+	h4 {
+		color: #777777;
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.5em;
+		padding-top: 10px;
+		margin-bottom: -5px;
+		line-height: 1.3;
+	}
+}
+.button#mc-submit {
+	background-color: red;
+}
+button.button.btn-danger {
+	span {
+		color: white;
+	}
+}
+.col {
+	.centr {
+		text-align: center;
+		text-align: center;
+	}
+}
+.workcasual {
+	display: flex;
+	justify-content: center;
+	ul {
+		display: flex;
+		justify-content: center;
+	}
+}
+.col.iconflex {
+	display: flex;
+	opacity: 0.5;
+	&:hover {
+		opacity: 1;
+	}
+}
+.col.WHOWEARWHAT {
+	text-align: center;
+}
+.col.images {
+	display: flex;
+	position: relative;
+	width: 50%;
+	&:hover {
+		.overlay {
+			opacity: 1;
+		}
+	}
+}
+.container-fluid {
+	.flex {
+		display: flex;
+	}
+}
+.row.foot {
+	background-color: rgb(249,249,249);
+	padding-top: 40px;
+}
+.form-control {
+	margin-top: 10px;
+}
+.btn.btn-solid {
+	margin-top: 10px;
+}
+.row.padd {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.container.paddi {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.carousel-inner.smth.pad {
+	padding-top: 30px;
+}
+.col-7 {
+	padding-top: 10px;
+}
+.row.header {
+	padding-top: 10px;
+}
+.col-lg-7.col-md-12 {
+	margin-top: 10px;
+}
+.col.hov {
+	opacity: 0.5;
+	&:hover {
+		opacity: 1;
+	}
+}
+.img-fluid.img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #008CBA;
+}
+.button#back {
+	margin-right: 300px;
+}
+
+
