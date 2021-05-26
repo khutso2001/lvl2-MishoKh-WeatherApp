@@ -25,9 +25,9 @@ fetch('https://fakestoreapi.com/products')
             .then(json =>{
                 for(let i=0;i<json.length;i++){
                     mainly.innerHTML+=`
-                    <div class="col-lg-3 col-md-3">
+                    <div class="col-lg-3 col-md-4 col-sm-6 mb-2">
               <div class="card rem" style="width: 15rem;">
-                <img src="${json[i].image}" class="card-img-top" alt="..."> 
+                <img src="${json[i].image}" class="card-img-top" style="height:340px;"alt="..."> 
                 
                 <div class="card-body">
                   <img src="star-fill.svg" alt="">
