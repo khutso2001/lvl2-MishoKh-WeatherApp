@@ -1,4 +1,5 @@
-* {
+@use '../node_modules/bootstrap/scss/bootstrap';
+ * {
 	margin: 0;
 	padding: 0;
 }
@@ -323,6 +324,57 @@ button.button.btn-danger {
 }
 .button#back {
 	margin-right: 300px;
+}
+.block-content {
+	display: none;
+}
+.block-content.block {
+	display: block;
+}
+.-block3 {
+	display: block;
+}
+.block3.block {
+	display: none;
+}
+.forstyle {
+	display: flex;
+	padding-inline-start: 0px;
+}
+ul {
+	li {
+		border-radius: 50%;
+		width: 30px;
+		height: 30px;
+	}
+}
+.color-1 {
+	margin-right: 3px;
+	background-color: gray;
+}
+.color-2 {
+	margin-right: 3px;
+	background-color: black;
+}
+.color-3 {
+	margin-right: 3px;
+	background-color: red;
+}
+.color-4 {
+	margin-right: 3px;
+	background-color: green;
+}
+.color-5 {
+	margin-right: 3px;
+	background-color: purple;
+}
+.color-6 {
+	margin-right: 3px;
+	background-color: yellow;
+}
+.color-7 {
+	margin-right: 3px;
+	background-color: orange;
 }
 
 
