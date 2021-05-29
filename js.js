@@ -18,7 +18,7 @@ function closeMenu() {
 
 
 const back=document.querySelector('.btn-danger.back');
-console.log(back);
+
 
 back.addEventListener('click',function(e){
     ulmenu.classList.remove("active");
