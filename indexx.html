@@ -15,24 +15,24 @@
     <div class="container-fluid">
         <div class="row header">
           <div class="col-8 header">
-            <p>Welcome to Our store Multikart </p>
+            <p style="color:rgb(165,153,178);">Welcome to Our store Multikart </p>
             <div class="contact">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-telephone-fill marg" viewBox="0 0 16 16" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-telephone-fill marg" style="color:rgb(165,153,178);" viewBox="0 0 16 16" >
                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
               </svg>
-            <p>Call Us: 123 - 456 - 7890</p>
+            <p style="color:rgb(165,153,178);">Call Us: 123 - 456 - 7890</p>
           </div>
           </div>
           <div class="col-4 header">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-heart-fill" style="color:rgb(165,153,178);" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
               </svg>
               <div class="contact">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-fill " style="color:rgb(165,153,178);" viewBox="0 0 16 16">
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg>
               <div class="dropdown">
-             <a href="#" class="dropbtn">My Account</a>
+             <a href="#" class="dropbtn"style="color:rgb(165,153,178);">My Account</a>
              <div class="dropdown-content">
               <a href="#">Login</a>
               <a href="#">Register</a>
@@ -46,25 +46,34 @@
     <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-12 d-flex align-items-center">
-            <nav> 
-                  <ul class="ul_menu">
-                      <button id="back" class="btn-danger back" style="width:100px;">Back </button>
-                      <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">HOUSE OF DESIGN</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">BEAUTY & PERSONAL CARE</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">HOME & DECOR</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
-                  </ul>
-                  <div class="hamburger">
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                  </div> 
-          </nav>
+            <a class="btn btn-primary bg-light border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <div class="hmburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> 
+            </a>
+           
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul>
+                  <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">HOUSE OF DESIGN</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">BEAUTY & PERSONAL CARE</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">HOME & DECOR</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
+                </ul>
+              </div>
+            </div>
+           
            <div> <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/logo.png" alt=""></div>
           </div>
           <div class="col-lg-7 col-md-12">
@@ -79,8 +88,10 @@
                </div>
              </div>   
               <div class="dropdown">
+                
                 <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  FEATURE
+                  FEATURE<span class="position-absolute top-0 start-70 translate-middle badge rounded-pill bg-danger">new <span class="visually-hidden"></span></span>
+
                 </button>
                 <div class="dropdown-content">
                  <a href="#">Product</a>
@@ -129,7 +140,78 @@
        </div>
      </div>   
           </div>
-          <div class="col-lg-2 col-md-12 col-sm-12 d-flex align-items-center coin">
+
+        
+
+
+
+          
+          <div class="col-lg-2 col-md-12 col-sm-12 d-flex align-items-center coin justify-content-evenly">
+            
+            <button class="btn btn-primary border-0 bg-light d-none d-md-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <nav class="nav"> 
+                <div class="hmburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> 
+        </nav>
+            </button>
+           
+    
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"><div class="offcanvas-header">
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+    <div class="sidebar-back text-start">
+      <i class="fa fa-angle-left pe-2" aria-hidden="true"></i> 
+  </div>
+  </button>
+</div>
+<div class="offcanvas-body">
+  <ul>
+    <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOUSE</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BEAUTY</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOME</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+<div class="offcanvas-header">
+  <div onclick="closeNav()">
+    <div class="sidebar-back text-start">
+      <i class="bi bi-chevron-left"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+      </svg></i>
+        <button class="border-0 fs-3">Back</button>  
+    </div>
+</div>
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <ul>
+    <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOUSE</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BEAUTY</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOME</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
+  </ul>
+  </div>
+</div>
+
+
+
+
             <div class="dropdown">
             <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/setting.png"class="dropbtn" alt="img" >
             <div class="dropdown-content">
@@ -159,18 +241,19 @@
           </div>
         </div>
     </div>
+    
     <div class="container-fluid mb-3 mt-3">
         <div class="row">
           <div class="col-1">
 
           </div>
           <div class="col-7 d-flex">
-            <p>collection</p> 
+            <p class="fw-bold">collection</p> 
           </div>
           <div class="col-4 d-flex">
             <ul class="d-flex ">
-                <li><a href="#"><p>home</p></a></li>
-                <li class="px-3"><p>/collection</p></li>
+                <li><a href="#"><p class="fw-bold"style="color:black;">home</p></a></li>
+                <li class="px-3"><p style="color:rgb(165,153,178);">/collection</p></li>
             </ul>
             
           </div>
@@ -426,46 +509,10 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <img src="https://themes.pixelstrap.com/multikart/assets/images/side-banner.png" alt="">
+          <img src="https://themes.pixelstrap.com/multikart/assets/images/side-banner.png" class="img-fluid" style="width: 100%;"alt="">
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
  
           <div class="col-lg-9">
@@ -475,7 +522,7 @@
             <div class="container border mt-4">
               <div class="row">
                 <div class="col-12">
-                  <p class="text-center pt-3">Showing Products 1-24 Of 10 Result</p>
+                  <p class="text-align:center pt-3">Showing Products 1-24 Of 10 Result</p>
                 </div>
               </div>
             </div>
@@ -503,11 +550,11 @@
                 </select>
               </div>
               <div class="col-4 border-end-0 pt-3 pb-3 col-lg-4 col-md-4 col-sm-12">
-                <select class="form-select border-0" id="classid" aria-label="Default select example">
+                <select class="form-select border-0" id="classidsort" aria-label="Default select example">
                   <option selected>Sorting items</option>
                   <option value="1">Sorting items</option>
-                  <option value="2" class="mdproduct">50 Products</option>
-                  <option value="3" class="maxproduct">100 Products</option>
+                  <option value="2" class="mdproductsort">50 Products</option>
+                  <option value="3" class="maxproductsort">100 Products</option>
                 </select>
               </div>
               </div>
@@ -601,8 +648,8 @@
           <div class="col-lg-3 col-md-6 col-sm-12">
             <h5>WHY WE CHOOSE</h5>
                     <ul>
-                      <li> <a href ="#">Shipping &return</a>  </li>
-                      <li> <a href ="#"> Secure Shopping</a> </li>
+                      <li> <a href ="#">Shipping</a>  </li>
+                      <li> <a href ="#"> Secure</a> </li>
                       <li> <a href ="#">Gallary</a> </li>
                       <li> <a href ="#"> Affiliates</a> </li>
                       <li> <a href ="#">Contacts</a> </li>
@@ -643,6 +690,21 @@
       
     
     </div>
-   
+    <div class="container-fluid pt-3 pb-3 bg-light ">
+      <div class="row">
+        <div class="col-7 col-md-7 col-sm-12">
+          <p> 2017-18 themeforest powered by pixelstrap</p>
+        </div>
+        <div class="col-5 d-flex justify-content-between col-md-3 col-sm-12">
+          <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/visa.png" alt="">
+          <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/mastercard.png" alt="">
+          <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/paypal.png" alt="">
+          <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/american-express.png" alt="">
+          <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/discover.png" alt="">
+        </div>
+        
+      </div>
+    </div>
+
 </body>
 </html>

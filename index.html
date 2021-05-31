@@ -15,26 +15,33 @@
    
   <div class="main_container">
     <header>
-    <div class="container-fluid">
+      <div class="container-fluid">
         <div class="row header">
           <div class="col-8 header">
-            <p>Welcome to Our store Multikart </p>
+            <p style="color:rgb(165,153,178);">Welcome to Our store Multikart </p>
             <div class="contact">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-telephone-fill marg" viewBox="0 0 16 16" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-telephone-fill marg" style="color:rgb(165,153,178);" viewBox="0 0 16 16" >
                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
               </svg>
-            <p>Call Us: 123 - 456 - 7890</p>
+            <p style="color:rgb(165,153,178);">Call Us: 123 - 456 - 7890</p>
           </div>
           </div>
           <div class="col-4 header">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-heart-fill" style="color:rgb(165,153,178);" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
               </svg>
               <div class="contact">
-              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="25" fill="currentColor" class="bi bi-person-fill " style="color:rgb(165,153,178);" viewBox="0 0 16 16">
                 <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
               </svg>
-             <a href="#">My Account</a>    
+              <div class="dropdown">
+             <a href="#" class="dropbtn"style="color:rgb(165,153,178);">My Account</a>
+             <div class="dropdown-content">
+              <a href="#">Login</a>
+              <a href="#">Register</a>
+              
+            </div>
+          </div>    
           </div>
         </div>
         </div>
@@ -42,102 +49,202 @@
     <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-12 d-flex align-items-center">
-            <nav> 
-                  <ul class="ul_menu">
-                      <button id="back" class="btn-danger back" style="width:100px;">Back </button>
-                      <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">HOUSE OF DESIGN</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">BEAUTY & PERSONAL CARE</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">HOME & DECOR</a></li>
-                      <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
-                  </ul>
-                  <div class="hamburger">
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                  </div> 
-          </nav>
+            <a class="btn btn-primary bg-light border-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <div class="hmburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div> 
+            </a>
+           
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul>
+                  <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">HOUSE OF DESIGN</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">BEAUTY & PERSONAL CARE</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">HOME & DECOR</a></li>
+                                  <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
+                </ul>
+              </div>
+            </div>
+           
            <div> <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/logo.png" alt=""></div>
           </div>
           <div class="col-lg-7 col-md-12">
-            <div class="btn-group smth2">
-                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <div class="dropdown">
+                <button type="button" class="btn"  aria-expanded="false">
                   HOME
                 </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Product action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-              </div>
-              <div class="btn-group smth2">
-                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  FEATURE
+                <div class="dropdown-content">
+                 <a href="#">Product</a>
+                 <a href="#">Product action</a>
+                 <a href="#">Something else here</a>
+               </div>
+             </div>   
+              <div class="dropdown">
+                
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  FEATURE<span class="position-absolute top-0 start-70 translate-middle badge rounded-pill bg-danger">new <span class="visually-hidden"></span></span>
+
                 </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Product action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-              </div>
-              <div class="btn-group smth2">
-                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  SHOP
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Product action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-              </div>
-              <div class="btn-group smth2">
-                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  PRODUCT
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Product action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-              </div>
-              <div class="btn-group smth2">
-                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  PAGES
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Product action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-              </div>
-              <div class="btn-group smth2">
-                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  BLOG
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Product</a></li>
-                  <li><a class="dropdown-item" href="#">Product action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-  
-                </ul>
-              </div>
+                <div class="dropdown-content">
+                 <a href="#">Product</a>
+                 <a href="#">Product action</a>
+                 <a href="#">Something else here</a>
+               </div>
+             </div>   
+             <div class="dropdown">
+              <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                SHOP
+              </button>
+              <div class="dropdown-content">
+               <a href="#">Product</a>
+               <a href="#">Product action</a>
+               <a href="#">Something else here</a>
+             </div>
+           </div>   
+           <div class="dropdown">
+            <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              PRODUCT
+            </button>
+            <div class="dropdown-content">
+             <a href="#">Product</a>
+             <a href="#">Product action</a>
+             <a href="#">Something else here</a>
+           </div>
+         </div>   
+         <div class="dropdown">
+          <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            PAGES
+          </button>
+          <div class="dropdown-content">
+           <a href="#">Product</a>
+           <a href="#">Product action</a>
+           <a href="#">Something else here</a>
+         </div>
+       </div>   
+       <div class="dropdown">
+        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          BLOG
+        </button>
+        <div class="dropdown-content">
+         <a href="#">Product</a>
+         <a href="#">Product action</a>
+         <a href="#">Something else here</a>
+       </div>
+     </div>   
           </div>
-          <div class="col-lg-2 col-md-12 col-sm-12 d-flex align-items-center coin">
-            <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/setting.png" alt="img" >
-            <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/search.png" alt="img">
-            <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/cart.png" alt="img">
+
+        
+
+
+
+          
+          <div class="col-lg-2 col-md-12 col-sm-12 d-flex align-items-center coin justify-content-evenly">
+            
+            <button class="btn btn-primary border-0 bg-light d-none d-md-block d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+              <nav class="nav"> 
+                <div class="hmburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> 
+        </nav>
+            </button>
+           
+    
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel"><div class="offcanvas-header">
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close">
+    <div class="sidebar-back text-start">
+      <i class="fa fa-angle-left pe-2" aria-hidden="true"></i> 
+  </div>
+  </button>
+</div>
+<div class="offcanvas-body">
+  <ul>
+    <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOUSE OF DESIGN</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BEAUTY & PERSONAL CARE</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOME & DECOR</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
+  </ul>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+<div class="offcanvas-header">
+  <div onclick="closeNav()">
+    <div class="sidebar-back text-start">
+      <i class="bi bi-chevron-left"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
+      </svg></i>
+        <button class="border-0 fs-3">Back</button>  
+    </div>
+</div>
+  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+</div>
+<div class="offcanvas-body">
+  <ul>
+    <li class="ul_li"><a href="#" class="ul_link">CLOTHING</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BAGS</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">FOOTWEAR</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">WTCHES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">ACCESORIES</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOUSE OF DESIGN</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">BEAUTY & PERSONAL CARE</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">HOME & DECOR</a></li>
+                    <li class="ul_li"><a href="#" class="ul_link">KITCHEN</a></li>
+  </ul>
+  </div>
+</div>
+
+
+
+
+            <div class="dropdown">
+            <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/setting.png"class="dropbtn" alt="img" >
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/search.png"class="dropbtn" alt="img">
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <img src="http://themes.pixelstrap.com/multikart/assets/images/icon/cart.png"class="dropbtn" alt="img">
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+           
+            
           </div>
         </div>
     </div>
+    
 </header>
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner smth pad">
@@ -202,72 +309,242 @@
   </div>
  
 
-  <div class="container">
-    <div class="row">
-      <div class="col mb-5">
-        <div class="card rem" style="width: 15rem;">
-          <img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg" class="card-img-top " alt="...">
-          <div class="card-body">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-  
-            <p class="card-text">purple polo tshirt</p>
-            <p>$36.00</p>
-            <ul>
+
+
+
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="row">
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/34.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+        
+                  <p class="card-text">purple polo tshirt</p>
+                  <p>$36.00</p>
+                  <ul>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/34.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">multi color polo tshirt</p>
+                  <p>$89.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/34.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">candy red solid tshirt</p>
+                  <p>$65.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/34.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">multi polo tsishirt</p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col mb-5">
-        <div class="card rem" style="width: 15rem;">
-          <img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/33.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <p class="card-text">multi color polo tshirt</p>
-            <p>$89.00</p>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+        
+                  <p class="card-text">purple polo tshirt</p>
+                  <p>$36.00</p>
+                  <ul>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">multi color polo tshirt</p>
+                  <p>$89.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">candy red solid tshirt</p>
+                  <p>$65.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">multi polo tsishirt</p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col mb-5">
-        <div class="card rem" style="width: 15rem;">
-          <img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/35.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <p class="card-text">candy red solid tshirt</p>
-            <p>$65.00</p>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-5">
-        <div class="card rem" style="width: 15rem;">
-          <img src="http://themes.pixelstrap.com/multikart/assets/images/pro3/35.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <img src="star-fill.svg" alt="">
-            <p class="card-text">multi polo tsishirt</p>
-            <p>$20.00</p>
+      <div class="carousel-item">
+        <div class="container">
+          <div class="row">
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/36.jpg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+        
+                  <p class="card-text">purple polo tshirt</p>
+                  <p>$36.00</p>
+                  <ul>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/36.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">multi color polo tshirt</p>
+                  <p>$89.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/36.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">candy red solid tshirt</p>
+                  <p>$65.00</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card rem" style="width: 15rem;">
+                <img src="https://themes.pixelstrap.com/multikart/assets/images/pro3/36.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <img src="star-fill.svg" alt="">
+                  <p class="card-text">multi polo tsishirt</p>
+                  <p>$20.00</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
     <div class="container-fluid">
      
         <div class="banner parallax">
@@ -293,13 +570,18 @@
         </div>       
       </div>
     </div>
-    <div class= "workcasual">
-      <ul>
-        <li><a href>WORK CASUAL</a></li>
-        <li><a href>WFN WEAR</a></li>
-        <li><a href>COMFORT WEAR</a></li>
-      </ul>
-  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex">
+          <ul class="d-flex">
+            <li><a href>WORK CASUAL</a></li>
+            <li><a href>WFN WEAR</a></li>
+            <li><a href>COMFORT WEAR</a></li>
+          </ul>
+        </div>       
+      </div>
+    </div>
+    
   
     <div class="container">
       <div class="row">
@@ -686,9 +968,21 @@
   
 
 </div>
-
-
-
+<div class="container pt-3 pb-3 bg-light ">
+  <div class="row">
+    <div class="col-9 col-md-9 col-sm-12">
+      <p> 2017-18 themeforest powered by pixelstrap</p>
+    </div>
+    <div class="col-3 d-flex justify-content-between col-md-3 col-sm-12">
+      <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/visa.png" alt="">
+      <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/mastercard.png" alt="">
+      <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/paypal.png" alt="">
+      <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/american-express.png" alt="">
+      <img src="https://themes.pixelstrap.com/multikart/assets/images/icon/discover.png" alt="">
+    </div>
+    
+  </div>
+</div>
 
 </body>
 </html>
