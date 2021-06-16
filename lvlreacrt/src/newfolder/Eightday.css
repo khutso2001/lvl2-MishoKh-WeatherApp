@@ -1,0 +1,13 @@
+.day8{
+    margin-top: 70px;
+}
+li{
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+}
+.sixday{
+    font-size: 2em;
+    font-weight: bold;
+}

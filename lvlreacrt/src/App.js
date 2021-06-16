@@ -1,16 +1,17 @@
 
 import './App.css';
-import Todosheader from"./newfolder/Todosheader.js";
-import Todos from"./newfolder/Todos.js";
-
+import ToThisToday from"./newfolder/OneDayWeather";
+import Modal from"./newfolder/Modal";
+import Eightday from"./newfolder/Eightday";
 function App() {
  
   
   return (
    <div>
-   <Todosheader/>
-   <Todos/>
-   
+     <div className="main-flex">
+   <ToThisToday/>
+   <Eightday/>
+   </div>
    </div>  
   )
 }
