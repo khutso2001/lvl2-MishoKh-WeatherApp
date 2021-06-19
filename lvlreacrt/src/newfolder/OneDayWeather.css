@@ -61,3 +61,10 @@ border: 2px solid rgb(43, 43, 44);
 p{
    font-weight: bold;
 }
+
+.input-conntent{
+   justify-content: center;
+}
+.input{
+   min-width: 540px;
+}
