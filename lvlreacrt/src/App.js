@@ -1,15 +1,12 @@
 import './App.css';
 import React, { useState, useEffect } from 'react'
-import ToThisToday from "./newfolder/OneDayWeather";
-import Eightday from "./newfolder/Eightday";
+import ToThisToday from "./Weather-App/OneDayWeather";
+import Eightday from "./Weather-App/Eightday";
+import Input from "./Weather-App/Input"
 
 function App() {
   const [thiscity, setthisCity] = useState('Tbilisi');
   let [searchValue, setSearch] = useState('Tbilisi');
-
-  const setValue = () => {
-    setSearch(thiscity);
-  }
 
   let handleChange = (e) => {
     e.preventDefault();
@@ -17,18 +14,14 @@ function App() {
   }
 
   const noRefr = (e) => {
+    setSearch(thiscity);
     e.preventDefault();
   }
 
 
   return (
     <div>
-      <div className="input-conntent">
-        <form onSubmit={noRefr}>
-          <input className="input" type="text" value={thiscity} onChange={handleChange}></input>
-          <button onClick={setValue} className="button" variant="contained" color="primary">Search</button>
-        </form>
-      </div>
+      <Input onSubmit={noRefr} value={thiscity} handleChange={handleChange}/>
       <div className="main-flex">
         <ToThisToday searchValue={searchValue} />
         <Eightday searchValue={searchValue} />
