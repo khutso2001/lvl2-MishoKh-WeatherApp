@@ -1,0 +1,20 @@
+.black{
+    background-color: black;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.blacked{
+    color:white;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul{
+    padding-inline-start: 0px;
+}

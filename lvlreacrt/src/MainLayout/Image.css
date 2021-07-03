@@ -1,0 +1,9 @@
+.img{
+    height: 350px;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
