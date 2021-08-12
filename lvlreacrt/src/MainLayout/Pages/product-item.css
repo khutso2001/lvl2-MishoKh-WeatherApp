@@ -1,0 +1,46 @@
+.bannerColor{
+    background-color: #F6F6F6;
+    padding:30px;
+    margin-top:80px;
+}
+
+.noMargin{
+    margin:0;
+}
+
+.hStyles{
+    font-weight: 500;
+    font-size:1.25rem;
+    color: #4f4f4f;
+}
+
+h3{
+    font-weight: 500;
+    font-size:1.25rem;
+    color: #4f4f4f;
+}
+
+.text-muted{
+    color:#6c757d;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.pMargins{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#4f4f4f;
+    font-weight: 300;
+}
+.minWidth{
+    width:80px;
+    height: 105px;
+}
+.ProductPage{
+    justify-content: center;
+    align-items: center;
+}
+
+  

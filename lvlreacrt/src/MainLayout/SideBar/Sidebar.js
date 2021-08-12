@@ -1,13 +1,14 @@
 import React from 'react';
-import InsetList from "./Subcategories";
+import InsetList from "../component/Subcategories";
 import Container from '@material-ui/core/Container'
 import Grid from '@material-ui/core/Grid';
-import Input from "./Input";
-import CheckBox from "./CheckBox";
-import Star from "./AvgStars";
-import Price from "./Price";
-import Sliders from "./Slider";
-import Size from "./Size";
+import Input from "../component/Input";
+import CheckBox from "../component/CheckBox";
+import Star from "../component/AvgStars";
+import Price from "../component/Price";
+import Sliders from "../component/Slider";
+import Size from "../component/Size";
+import Color from "../component/Color";
 function Sidebar() {
 
   return (
@@ -27,6 +28,7 @@ function Sidebar() {
             <Price/>
             <Sliders/>
             <Size/>
+            <Color/>
             </Grid>
         </Grid>
         

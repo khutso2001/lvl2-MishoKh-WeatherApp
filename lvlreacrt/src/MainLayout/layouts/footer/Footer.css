@@ -1,0 +1,32 @@
+.black{
+    background-color: rgb(46,46,46);
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.blacked{
+    color:white;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+ul.footlist{
+    display: flex;
+    flex-direction: column;
+}
+.Footer-bottom{
+    background-color: rgb(37,37,37);
+    width: 100%;
+    justify-content: center;
+}
+.Footer-bottom-p{
+    color:white;
+}

@@ -1,6 +1,25 @@
 ul{
     display:flex;
 }
-li a{
-    color:white;
+.brg{
+    visibility: hidden;
 }
+.toHide{
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+}
+.bold{
+    font-weight: bold;
+}
+.menuMargin{
+    margin-left: 170px;
+}
+@media only screen and (max-width: 800px) {
+    .brg {
+        visibility: visible;
+    }
+    .toHide{
+        display:none;
+    }
+  }

@@ -1,0 +1,38 @@
+
+.fa-linkedin-in.second{
+    background-color: #0082ca;
+    color:#fff;
+    font-size: .96154rem;
+    line-height: 36.15px;
+    border-radius: 50%;
+    width: 36.15px;
+    height: 36.15px;
+}
+.fa-twitter.second{
+    background-color: #007bff;
+    color: #fff;
+    font-size: .96154rem;
+    line-height: 36.15px;
+    border-radius: 50%;
+    width: 36.15px;
+    height: 36.15px;
+}
+.fa-github{
+    background-color:#333;
+    color:#fff;
+    font-size: .96154rem;
+    line-height: 36.15px;
+    border-radius: 50%;
+    width: 36.15px;
+    height: 36.15px;
+}
+.fa-facebook-f.second{
+    background-color:#3b5998;
+    color: #fff;
+    text-align: center;
+    font-size: .96154rem;
+    line-height: 36.15px;
+    border-radius: 50%;
+    width: 36.15px;
+    height: 36.15px;
+}

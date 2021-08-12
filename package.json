@@ -18,7 +18,10 @@
   },
   "homepage": "https://github.com/khutso2001/MishoKh-lvl1#readme",
   "dependencies": {
+    "@reduxjs/toolkit": "^1.6.1",
     "bootstrap": "^5.0.1",
-    "react-audio-element": "^1.0.5"
+    "react-audio-element": "^1.0.5",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1"
   }
 }

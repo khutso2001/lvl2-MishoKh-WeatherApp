@@ -1,3 +1,20 @@
 .MuiGrid-root{
     display:flex;
 }
+.MuiGrid-root.MuiGrid-item.MuiGrid-grid-xs-9{
+flex-wrap: wrap;
+}
+.clsnm{
+    max-height: 350px;
+}
+.labelexample{
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .contentname {
+      flex-wrap: wrap;
+  }
+  
+  
+}

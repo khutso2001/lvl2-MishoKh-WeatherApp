@@ -1,0 +1,25 @@
+.button{
+    background-color:blue; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 30px;
+    min-width: 60px;
+    min-height: 35px;
+    border: 2px solid rgb(92, 66, 236);
+
+ }
+ .button {
+ background-color: rgb(222, 222, 231); 
+ color: rgb(61, 35, 207); 
+ border: 2px solid rgb(92, 66, 236);
+ border-radius: 30px;
+ }
+ 
+ 
